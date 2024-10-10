@@ -31,3 +31,4 @@ C:\Users\Polisoft WEB\Desktop\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\refin
 C:\Users\Polisoft WEB\Desktop\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\ServerApp.pdb
 C:\Users\Polisoft WEB\Desktop\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\ServerApp.genruntimeconfig.cache
 C:\Users\Polisoft WEB\Desktop\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\ref\ServerApp.dll
+C:\Users\Polisoft WEB\Desktop\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\ServerApp.sourcelink.json

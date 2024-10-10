@@ -1,14 +1,9 @@
 {
-  "extends": "@vue/tsconfig/tsconfig.dom.json",
-  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"],
-  "exclude": ["node_modules"],
+  "extends": "./tsconfig.node.json", // node ayarlarını genişlet
   "compilerOptions": {
-    "composite": true,
-    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
-
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
-  }
+    "outDir": "./dist", // Çıktı dizini
+    "rootDir": "./src" // Kök dizin
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"], // Hangi dosyaların dahil edileceği
+  "exclude": ["node_modules", "**/*.spec.ts"] // Hariç tutulan dosyalar
 }

@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5"
+  }
+}

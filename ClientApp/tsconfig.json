@@ -7,5 +7,18 @@
     {
       "path": "./tsconfig.app.json"
     }
-  ]
+  ],
+  "compilerOptions": {
+    "target": "esnext", // Hedef ECMAScript versiyonu
+    "module": "esnext", // Modül sistemi
+    "moduleResolution": "node", // Modül çözümleme yöntemi
+    "strict": true, // Katı tip denetimi
+    "esModuleInterop": true, // ES modülleri ile CommonJS modülleri arasında uyumluluk
+    "skipLibCheck": true, // Kütüphane kontrollerini atla
+    "forceConsistentCasingInFileNames": true, // Dosya adları için tutarlılığı sağla
+    "types": ["node"], // Node.js tür tanımlarını dahil et
+    "lib": ["esnext", "dom"] // Kullanılan kütüphaneler
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"], // Hangi dosyaların dahil edileceği
+  "exclude": ["node_modules"] // Hariç tutulan dosyalar
 }
