@@ -19,6 +19,12 @@
     "types": ["node"], // Node.js tür tanımlarını dahil et
     "lib": ["esnext", "dom"] // Kullanılan kütüphaneler
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"], // Hangi dosyaların dahil edileceği
+  "include": [
+    "src/**/*.ts", 
+    "src/**/*.tsx", 
+    "src/**/*.vue", 
+    "src/api.js",
+    "src/router/index.js",
+    "src/main.js"], // Hangi dosyaların dahil edileceği
   "exclude": ["node_modules"] // Hariç tutulan dosyalar
 }

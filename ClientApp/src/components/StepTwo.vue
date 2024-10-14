@@ -1,27 +1,26 @@
-<!-- src/components/StepTwo.vue -->
 <template>
-    <div>
-      <label>Yaşınız:</label>
-      <input type="number" v-model="localData.age" />
-    </div>
-  </template>
-  
-  <script>
-  export default {
-    props: ['modelValue'],
-    data() {
-      return {
-        localData: this.modelValue
-      };
-    },
-    watch: {
-      localData: {
-        handler(newValue) {
-          this.$emit('update:modelValue', newValue);
-        },
-        deep: true
-      }
-    }
-  };
-  </script>
-  
+  <div>
+    <label>Yaşınız:</label>
+    <input type="number" v-model="formData.age" />
+  </div>
+</template>
+
+<script>
+import { defineComponent, watch } from 'vue';
+
+export default defineComponent({
+  props: {
+    modelValue: Object // üst bileşenden alınacak veri
+  },
+  setup(props, { emit }) {
+    const formData = props.modelValue;
+
+    // formData'daki değişiklikleri izliyoruz
+    watch(formData, (newVal) => {
+      emit('update:modelValue', newVal); // üst bileşene güncelleme gönderiyoruz
+    }, { deep: true });
+
+    return { formData };
+  }
+});
+</script>

@@ -4,6 +4,6 @@
     "outDir": "./dist", // Çıktı dizini
     "rootDir": "./src" // Kök dizin
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"], // Hangi dosyaların dahil edileceği
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "src/api.js", "src/router/index.js", "src/main.js"], // Hangi dosyaların dahil edileceği
   "exclude": ["node_modules", "**/*.spec.ts"] // Hariç tutulan dosyalar
 }

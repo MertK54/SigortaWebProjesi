@@ -17,5 +17,8 @@ export default defineConfig({
   'process.env': {
         BASE_URL: '/', 
       },
-  }
+  },
+  server: {
+    port: 5173, // Geliştirme sunucusu için port
+  },
 })

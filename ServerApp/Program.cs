@@ -4,7 +4,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowSpecificOrigin",
+    options.AddPolicy("AllowAllOrigins",
         builder =>
         {
             builder.WithOrigins("http://localhost:5173")
@@ -14,7 +14,7 @@ builder.Services.AddCors(options =>
 });
 builder.Services.AddControllers();
 var app = builder.Build();
-app.UseCors("AllowSpecificOrigin");
+app.UseCors("AllowAllOrigins");
 app.UseHttpsRedirection();
 app.MapControllers();
 if (app.Environment.IsDevelopment())
