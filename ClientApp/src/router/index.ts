@@ -3,6 +3,8 @@ import Home from '../views/Home.vue';
 import Offer from '../views/Offer.vue';
 import Contact from '../views/Contact.vue';
 import AboutUs from '../views/AboutUs.vue';
+import KaskoSigortasi from '../views/KaskoSigortasi.vue';
+import WizardForm from '../views/WizardForm.vue';
 
 const routes = [
   {
@@ -24,6 +26,16 @@ const routes = [
     path: '/about-us', // Hakkımızda sayfası
     name: 'AboutUs',
     component: AboutUs,
+  },
+  {
+    path: '/kasko-sigortasi', // Hakkımızda sayfası
+    name: 'KaskoSigortasi',
+    component: KaskoSigortasi,
+  },
+  {
+    path: '/wizard-form', // Hakkımızda sayfası
+    name: 'WizardForm',
+    component: WizardForm,
   }
 ];
 
