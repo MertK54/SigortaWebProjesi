@@ -20,9 +20,11 @@
                                 Ürünlerimiz
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><router-link to="/kasko-sigortasi" class="dropdown-item">Kasko Sigortası</router-link></li>
+                                <li><router-link to="/About-Us" class="dropdown-item">Dask</router-link></li>
+                                <li><router-link to="/About-Us" class="dropdown-item">Konut Sigortası</router-link></li>
+                                <li><router-link to="/About-Us" class="dropdown-item">Seyehat Sağlık Sigortası</router-link></li>
+                                <li><router-link to="/About-Us" class="dropdown-item">Tamamlayıcı Sağlık Sigortası</router-link></li>
                             </ul>
                         </li>
                         <li class="nav-item pe-4">
