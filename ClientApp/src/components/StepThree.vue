@@ -1,7 +1,9 @@
 <template>
   <div>
-    <label>Email Adresiniz:</label>
-    <input type="email" v-model="formData.email" />
+    <label>Araç Paketi:</label>
+    <input type="email" v-model="formData.aracPaketi" />
+    <label>Yakıt Tipi:</label>
+    <input type="email" v-model="formData.yakitTipi" />
   </div>
 </template>
 
@@ -19,7 +21,6 @@ export default defineComponent({
     watch(formData, (newVal) => {
       emit('update:modelValue', newVal); // üst bileşene güncelleme gönderiyoruz
     }, { deep: true });
-
     return { formData };
   }
 });

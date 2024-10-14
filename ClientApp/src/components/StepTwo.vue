@@ -1,7 +1,7 @@
 <template>
   <div>
-    <label>Yaşınız:</label>
-    <input type="number" v-model="formData.age" />
+    <label>model yılı:</label>
+    <input type="number" v-model="formData.modelYil" />
   </div>
 </template>
 

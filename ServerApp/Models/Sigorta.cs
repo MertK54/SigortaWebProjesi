@@ -1,10 +1,14 @@
     namespace ServerApp.Models;
     public class RequestModel
     {
-        public string? name { get; set; }
+        public string? aracMarka { get; set; }
 
-        public int? age { get; set; }
+        public int? modelYil { get; set; }
 
-        public string? email { get; set; }
+        public string? model { get; set; }
+        public string? aracPaketi { get; set; }
+        public string? yakitTipi { get; set; }
+        public string? sirketAdi { get; set; } 
+        public decimal fiyat { get; set; }
 
     }

@@ -66,54 +66,105 @@ C:/Users/Polisoft WEB/Desktop/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/Serve
 /Users/mertkezer/Documents/SigortaWebProjesi/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ServerApp.pdb
 /Users/mertkezer/Documents/SigortaWebProjesi/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ServerApp.genruntimeconfig.cache
 /Users/mertkezer/Documents/SigortaWebProjesi/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ref/ServerApp.dll
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\appsettings.json
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\ServerApp.exe
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\ServerApp.deps.json
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\ServerApp.runtimeconfig.json
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\ServerApp.dll
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\ServerApp.pdb
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\ServerApp.csproj.AssemblyReference.cache
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\ServerApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\ServerApp.AssemblyInfoInputs.cache
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\ServerApp.AssemblyInfo.cs
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\ServerApp.csproj.CoreCompileInputs.cache
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\ServerApp.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\ServerApp.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\ServerApp.sourcelink.json
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\staticwebassets\msbuild.ServerApp.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\staticwebassets\msbuild.build.ServerApp.props
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ServerApp.props
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ServerApp.props
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\scopedcss\bundle\ServerApp.styles.css
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\ServerApp.csproj.Up2Date
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\ServerApp.dll
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\refint\ServerApp.dll
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\ServerApp.pdb
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\ServerApp.genruntimeconfig.cache
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\obj\Debug\net8.0\ref\ServerApp.dll
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\Google.Protobuf.dll
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\K4os.Compression.LZ4.dll
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\K4os.Hash.xxHash.dll
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\MySql.Data.dll
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\System.Windows.Extensions.dll
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\ZstdSharp.dll
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
-C:\Users\Polisoft WEB\Desktop\SigortaWebProjeAnaDizin\SigortaWebProjesi\ServerApp\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/appsettings.Development.json
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/appsettings.json
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/ServerApp.exe
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/ServerApp.deps.json
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/ServerApp.runtimeconfig.json
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/ServerApp.dll
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/ServerApp.pdb
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/Microsoft.OpenApi.dll
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ServerApp.csproj.AssemblyReference.cache
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ServerApp.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ServerApp.AssemblyInfoInputs.cache
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ServerApp.AssemblyInfo.cs
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ServerApp.csproj.CoreCompileInputs.cache
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ServerApp.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ServerApp.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ServerApp.sourcelink.json
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/staticwebassets.build.json
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/staticwebassets.development.json
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/staticwebassets/msbuild.ServerApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/staticwebassets/msbuild.build.ServerApp.props
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ServerApp.props
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ServerApp.props
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/staticwebassets.pack.json
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/scopedcss/bundle/ServerApp.styles.css
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ServerApp.csproj.Up2Date
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ServerApp.dll
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/refint/ServerApp.dll
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ServerApp.pdb
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ServerApp.genruntimeconfig.cache
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ref/ServerApp.dll
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/BouncyCastle.Cryptography.dll
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/Google.Protobuf.dll
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/K4os.Compression.LZ4.dll
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/K4os.Compression.LZ4.Streams.dll
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/K4os.Hash.xxHash.dll
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/MySql.Data.dll
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/System.Security.Permissions.dll
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/System.Windows.Extensions.dll
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/ZstdSharp.dll
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/runtimes/win-x64/native/comerr64.dll
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/runtimes/win-x64/native/gssapi64.dll
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/runtimes/win-x64/native/k5sprt64.dll
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/runtimes/win-x64/native/krb5_64.dll
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/runtimes/win-x64/native/krbcc64.dll
+C:/Users/Polisoft WEB/Desktop/SigortaWebProjeAnaDizin/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Windows.Extensions.dll
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/appsettings.Development.json
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/appsettings.json
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/ServerApp
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/ServerApp.deps.json
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/ServerApp.runtimeconfig.json
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/ServerApp.dll
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/ServerApp.pdb
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/BouncyCastle.Cryptography.dll
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/Google.Protobuf.dll
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/K4os.Compression.LZ4.dll
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/K4os.Compression.LZ4.Streams.dll
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/K4os.Hash.xxHash.dll
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/MySql.Data.dll
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/System.Security.Permissions.dll
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/System.Windows.Extensions.dll
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/ZstdSharp.dll
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/runtimes/win-x64/native/comerr64.dll
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/runtimes/win-x64/native/gssapi64.dll
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/runtimes/win-x64/native/k5sprt64.dll
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/runtimes/win-x64/native/krb5_64.dll
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/runtimes/win-x64/native/krbcc64.dll
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Windows.Extensions.dll
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ServerApp.csproj.AssemblyReference.cache
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ServerApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ServerApp.AssemblyInfoInputs.cache
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ServerApp.AssemblyInfo.cs
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ServerApp.csproj.CoreCompileInputs.cache
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ServerApp.MvcApplicationPartsAssemblyInfo.cs
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ServerApp.MvcApplicationPartsAssemblyInfo.cache
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ServerApp.sourcelink.json
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/staticwebassets.build.json
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/staticwebassets.development.json
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/staticwebassets/msbuild.ServerApp.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/staticwebassets/msbuild.build.ServerApp.props
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ServerApp.props
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ServerApp.props
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/scopedcss/bundle/ServerApp.styles.css
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ServerApp.csproj.Up2Date
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ServerApp.dll
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/refint/ServerApp.dll
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ServerApp.pdb
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ServerApp.genruntimeconfig.cache
+/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/obj/Debug/net8.0/ref/ServerApp.dll

@@ -14,7 +14,7 @@
       <h3>Sorgu Sonuçları:</h3>
       <ul>
         <li v-for="(item, index) in data.results" :key="index">
-          {{ item.name }} - {{ item.email }} - {{ item.age }}
+          {{ item.model }} - {{ item.modelYil }} - {{ item.aracMarka }} - {{ item.aracPaketi }} - {{ item.yakitTipi }} - {{ item.sirketAdi }} - {{ item.fiyat }}
         </li>
       </ul>
     </div>
@@ -32,9 +32,13 @@ export default {
   data() {
     return {
       formData: {
-        name: '',
-        age: '',
-        email: ''
+        model: '',
+        modelYil:'',
+        aracMarka: '',
+        aracPaketi: '',
+        yakitTipi: '',
+        sirketAdi:'',
+        fiyat:''
       },
       data: null, // Veritabanından alınan sonuçlar
       steps: [
@@ -66,7 +70,8 @@ export default {
         alert('Veri başarıyla gönderildi: ' + JSON.stringify(response.data));
         console.log('Veri başarıyla gönderildi: ' + JSON.stringify(response.data));
         this.data = response.data; // Sonuçları burada saklıyoruz
-      } catch (error) {
+      } 
+      catch (error) {
         alert('Hata oluştu: ' + (error.response?.data || error.message));
         console.log('Hata oluştu: ' + (error.response?.data || error.message));
       }
