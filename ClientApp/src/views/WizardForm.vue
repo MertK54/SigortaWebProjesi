@@ -1,11 +1,11 @@
 <template>
-  <div>
-    <h2>Adım {{ currentStep + 1 }}</h2>
+  <div class="container mt-4">
+    <h2 class="mx-3">Adım {{ currentStep + 1 }}</h2>
     <component :is="steps[currentStep].component" v-model="formData" />
 
-    <div class="wizard-controls">
-      <button @click="prevStep" :disabled="currentStep === 0">Geri</button>
-      <button @click="nextStep" v-if="currentStep < steps.length - 1">İleri</button>
+    <div class="wizard-controls mx-3 mt-5">
+      <button @click="prevStep" :disabled="currentStep === 0" class="btn btn-secondary">Geri</button>
+      <button @click="nextStep" v-if="currentStep < steps.length - 1"class="btn btn-success">İleri</button>
       <button @click="submitForm" v-if="currentStep === steps.length - 1">Gönder</button>
     </div>
 
@@ -86,5 +86,8 @@ export default {
 }
 button {
   margin-right: 10px;
+}
+.container {
+  max-width: 500px; /* Form genişliğini ayarlamak için */
 }
 </style>

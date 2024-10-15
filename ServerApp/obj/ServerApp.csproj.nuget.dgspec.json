@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/ServerApp.csproj": {}
+    "C:\\Users\\Polisoft WEB\\Desktop\\SigortaWebProjeAnaDizin\\SigortaWebProjesi\\ServerApp\\ServerApp.csproj": {}
   },
   "projects": {
-    "/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/ServerApp.csproj": {
+    "C:\\Users\\Polisoft WEB\\Desktop\\SigortaWebProjeAnaDizin\\SigortaWebProjesi\\ServerApp\\ServerApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/ServerApp.csproj",
+        "projectUniqueName": "C:\\Users\\Polisoft WEB\\Desktop\\SigortaWebProjeAnaDizin\\SigortaWebProjesi\\ServerApp\\ServerApp.csproj",
         "projectName": "ServerApp",
-        "projectPath": "/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/ServerApp.csproj",
-        "packagesPath": "/Users/mertkezer/.nuget/packages/",
-        "outputPath": "/Users/mertkezer/Documents/SigortaWeb/SigortaWebProjesi/ServerApp/obj/",
+        "projectPath": "C:\\Users\\Polisoft WEB\\Desktop\\SigortaWebProjeAnaDizin\\SigortaWebProjesi\\ServerApp\\ServerApp.csproj",
+        "packagesPath": "C:\\Users\\Polisoft WEB\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Polisoft WEB\\Desktop\\SigortaWebProjeAnaDizin\\SigortaWebProjesi\\ServerApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mertkezer/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Polisoft WEB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

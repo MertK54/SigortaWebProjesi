@@ -21,10 +21,11 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><router-link to="/kasko-sigortasi" class="dropdown-item">Kasko Sigortası</router-link></li>
-                                <li><router-link to="/About-Us" class="dropdown-item">Dask</router-link></li>
-                                <li><router-link to="/About-Us" class="dropdown-item">Konut Sigortası</router-link></li>
-                                <li><router-link to="/About-Us" class="dropdown-item">Seyehat Sağlık Sigortası</router-link></li>
-                                <li><router-link to="/About-Us" class="dropdown-item">Tamamlayıcı Sağlık Sigortası</router-link></li>
+                                <li><router-link to="/trafik-sigortasi" class="dropdown-item">Trafik Sigortası</router-link></li>
+                                <li><router-link to="/dask" class="dropdown-item">Dask</router-link></li>
+                                <li><router-link to="/konut-sigortasi" class="dropdown-item">Konut Sigortası</router-link></li>
+                                <li><router-link to="/seyehat-saglik-sigortasi" class="dropdown-item">Seyehat Sağlık Sigortası</router-link></li>
+                                <li><router-link to="/tamamlayici-saglik-sigortasi" class="dropdown-item">Tamamlayıcı Sağlık Sigortası</router-link></li>
                             </ul>
                         </li>
                         <li class="nav-item pe-4">
