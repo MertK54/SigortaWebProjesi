@@ -1,6 +1,6 @@
 <template>
-    <div class="container pt-5 pb-5 text-center" style="max-width: 60%;">
-      <h1 class="" style="font-size: 4rem;"><strong>Kasko Sigortası</strong></h1>
+    <div class="container p-5 text-center shadow-lg bg-light my-5" style="max-width: 60%;">
+      <h1 class="pb-2" style="font-size: 4rem;" ><strong>Kasko Sigortası</strong></h1>
       <p class="fs-4">
         Aracınız için Teklifleri Karşılaştır, Hemen Online Satın Al!
       </p>

@@ -17,7 +17,7 @@
 
 
 
-    <!-- Start Slider -->
+    <!-- Slider Kısmı-->
     <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
         <ol class="carousel-indicators">
             <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
@@ -87,10 +87,10 @@
             <i class="fas fa-chevron-right"></i>
         </a>
     </div>
-    <!-- End Slider -->
+    <!-- Slider btiiş -->
 
 
-    <!-- Start Categories of The Month -->
+    <!-- teklif al -->
     <section class="container-fluid" style="margin-top: 10rem;">
         <div class="row text-center pt-3">
             <div class="col-lg-6 m-auto">
@@ -100,42 +100,9 @@
                 </p>
             </div>
         </div>
-        
-        <div class="row px-5">
-            <div class="col-6 col-md-2 mt-3 p-5">
-                <a href="#"><img src="../assets/img/arabasigortasi.png" class="rounded-circle img-fluid w-75 mx-auto d-block card-img"></a>
-                <h5 class="text-center mt-1 mb-3">Kasko Sigortası</h5>
-                <p class="text-center"><a class="btn btn-success">Teklif Al</a></p>
-            </div>
-            <div class="col-6 col-md-2 mt-3 p-5">
-                <a href="#"><img src="../assets/img/konutsigortasi.png" class="rounded-circle img-fluid w-75 mx-auto d-block card-img"></a>
-                <h5 class="text-center mt-1 mb-3">Konut Sigortası</h5>
-                <p class="text-center"><a class="btn btn-success">Teklif Al</a></p>
-            </div>
-            <div class="col-6 col-md-2 mt-3 p-5">
-                <a href="#"><img src="../assets/img/trafiksigortasi.png" class="rounded-circle img-fluid w-75 mx-auto d-block card-img"></a>
-                <h5 class="text-center mt-1 mb-3">Trafik Sigortası</h5>
-                <p class="text-center"><a class="btn btn-success">Teklif Al</a></p>
-            </div>
-            <div class="col-6 col-md-2 mt-3 p-5">
-                <a href="#"><img src="../assets/img/dask.png" class="rounded-circle img-fluid w-75 mx-auto d-block card-img"></a>
-                <h5 class="text-center mt-1 mb-3">Dask &nbsp&nbsp&nbsp&nbsp&nbsp Sigortası</h5>
-                <p class="text-center"><a class="btn btn-success">Teklif Al</a></p>
-            </div>
-            <div class="col-6 col-md-2 mt-3 p-5">
-                <a href="#"><img src="../assets/img/seyehatsagliksigortasi.png" class="rounded-circle img-fluid w-75 mx-auto d-block card-img"></a>
-                <h5 class="text-center mt-1 mb-3">Seyehat Sigortası</h5>
-                <p class="text-center"><a class="btn btn-success">Teklif Al</a></p>
-            </div>
-            <div class="col-6 col-md-2 mt-3 p-5">
-                <a href="#"><img src="../assets/img/tamamlayicisagliksigortasi.png" class="rounded-circle img-fluid w-75 mx-auto d-block card-img"></a>
-                <h5 class="text-center mt-1 mb-3">Tamamlayıcı Sigortası</h5>
-                <p class="text-center"><a class="btn btn-success">Teklif Al</a></p>
-            </div>
-        </div>
-
     </section>
-    <!-- End Categories of The Month -->
+    <Products />
+    <!--  bitiş teklif al -->
 
     <section class="why-sakarya-sigorta" style="margin-top: 7rem;margin-bottom: 7rem;padding-top: 7rem;padding-bottom: 7rem;">
         <h2 class="text-success"><strong>Neden Sakarya Sigorta'dan Almalıyım?</strong></h2>
@@ -160,24 +127,24 @@
             </div>
         </div>
     </section>
-
+<!--adım adım baslangic-->
 <section class="row p-5">
-  <div class="d-flex flex-column">
-    <div class="text-container d-flex">
-      <div class="text-item p-3 mx-2">
-        <h2><strong>Adım1 : Bilgilerinizi Girin</strong></h2>
+  <div class="container">
+    <div class="row ">
+      <div class="p-3 col-lg-4">
+        <h3><strong>Adım1 : Bilgilerinizi Girin</strong></h3>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, deleniti, ad repellendus quis iste nisi eius molestiae animi aspernatur.</p>
-        <img src="../assets/img/form.png" alt="" class="" style="width: 100%;">
-    </div>
-      <div class="text-item p-3 mx-2">
-        <h2><strong>Adım 2: Teklifleri Alın</strong></h2>
-        <p>Possimus culpa corrupti exercitationem dolorem cumque quos? Sequi architecto dolor optio?</p>
-        <img src="../assets/img/form.png" alt="" class="" style="width: 100%;">
+        <img src="../assets/img/form.png" alt="" class="img-fluid" style="width: 100%;">
       </div>
-      <div class="text-item p-3 mx-2">
-        <h2><strong>Adım 3: Başvurunuzu Tamamlayın</strong></h2>
+      <div class="p-3 col-lg-4">
+        <h3><strong>Adım 2: Teklifleri Alın</strong></h3>
+        <p>Possimus culpa corrupti exercitationem dolorem cumque quos? Sequi architecto dolor optio?</p>
+        <img src="../assets/img/form.png" alt="" class="img-fluid" style="width: 100%;">
+      </div>
+      <div class="p-3 col-lg-4">
+        <h3><strong>Adım 3: Başvurunuzu Tamamlayın</strong></h3>
         <p>Başvurunuzu başarıyla tamamladıktan sonra, sizinle en kısa sürede iletişime geçeceğiz.</p>
-        <img src="../assets/img/form.png" alt="" class="" style="width: 100%;">
+        <img src="../assets/img/form.png" alt="" class="img-fluid" style="width: 100%;">
       </div>
     </div>
   </div>
@@ -186,8 +153,12 @@
   </template>
   
   <script>
+  import Products from '../components/Products.vue';
   export default {
     name: 'Home',
+    components : {
+        Products
+    }
 };
 
   </script>

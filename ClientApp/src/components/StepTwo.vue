@@ -1,26 +1,40 @@
 <template>
-  <div>
-    <label>model yılı:</label>
-    <input type="number" v-model="formData.modelYil" />
+  <div class="container mt-4">
+    <div class="mb-3">
+      <label for="model" class="form-label">Model Yılı:</label>
+      <input type="number" v-model="formData.modelYil" class="form-control" />
+    </div>
   </div>
 </template>
 
 <script>
 import { defineComponent, watch } from 'vue';
 
-export default defineComponent({
+export default {
   props: {
-    modelValue: Object // üst bileşenden alınacak veri
+    modelValue: {
+      type: Object, 
+      required: true
+    }
   },
-  setup(props, { emit }) {
-    const formData = props.modelValue;
-
-    // formData'daki değişiklikleri izliyoruz
-    watch(formData, (newVal) => {
-      emit('update:modelValue', newVal); // üst bileşene güncelleme gönderiyoruz
-    }, { deep: true });
-
-    return { formData };
+  data() {
+    return {
+      formData: { ...this.modelValue } 
+    };
+  },
+  watch: {
+    modelValue: {
+      handler(newVal) {
+        this.formData = { ...newVal }; 
+      },
+      deep: true 
+    },
+    formData: {
+      handler(newVal) {
+        this.$emit('update:modelValue', newVal); 
+      },
+      deep: true 
+    }
   }
-});
+};
 </script>

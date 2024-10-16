@@ -1,22 +1,22 @@
 <template>
-  <div class="container mt-4">
-    <h2 class="mx-3">Adım {{ currentStep + 1 }}</h2>
-    <component :is="steps[currentStep].component" v-model="formData" />
-
-    <div class="wizard-controls mx-3 mt-5">
-      <button @click="prevStep" :disabled="currentStep === 0" class="btn btn-secondary">Geri</button>
-      <button @click="nextStep" v-if="currentStep < steps.length - 1"class="btn btn-success">İleri</button>
-      <button @click="submitForm" v-if="currentStep === steps.length - 1">Gönder</button>
+  <div class="container my-5 p-5 card b-box-3" style="box-shadow: 5px 5px #4BB543;">
+    <h2 class="p-2" style="background-color: white;border-bottom: 1px solid #d3d3d3;">Adım {{ currentStep + 1 }}</h2>
+    <div class="d-flex justify-content-around mb-4">
+      <div
+        v-for="(step, index) in steps"
+        :key="index"
+        class="step-indicator"
+        :class="{ active: index <= currentStep }">
+        <span>{{ index + 1 }}</span>
+      </div>
     </div>
+    <component :is="steps[currentStep].component" v-model="formData" :data="data" />
 
-    <!-- Sorgu sonuçlarını göstermek için eklenen bölüm -->
-    <div v-if="data && data.results && data.results.length > 0">
-      <h3>Sorgu Sonuçları:</h3>
-      <ul>
-        <li v-for="(item, index) in data.results" :key="index">
-          {{ item.model }} - {{ item.modelYil }} - {{ item.aracMarka }} - {{ item.aracPaketi }} - {{ item.yakitTipi }} - {{ item.sirketAdi }} - {{ item.fiyat }}
-        </li>
-      </ul>
+    <div class="card-body mt-5">
+      <button @click="prevStep" :disabled="currentStep === 0" class="btn btn-secondary">Geri</button>
+      <button @click="nextStep" v-if="currentStep < steps.length - 2" class="btn btn-success">İleri</button>
+      <button @click="submitForm" v-if="currentStep === steps.length - 2" class="btn btn-success">Gönder</button>
+
     </div>
   </div>
 </template>
@@ -25,10 +25,10 @@
 import StepOne from '../components/StepOne.vue';
 import StepTwo from '../components/StepTwo.vue';
 import StepThree from '../components/StepThree.vue';
+import StepLast from '../components/StepLast.vue';
 import axios from 'axios';
-
 export default {
-  components: { StepOne, StepTwo, StepThree },
+  components: { StepOne, StepTwo, StepThree,StepLast },
   data() {
     return {
       formData: {
@@ -44,7 +44,8 @@ export default {
       steps: [
         { component: StepOne },
         { component: StepTwo },
-        { component: StepThree }
+        { component: StepThree },
+        { component: StepLast }
       ],
       currentStep: 0
     };
@@ -60,34 +61,56 @@ export default {
         this.currentStep--;
       }
     },
-    async submitForm() {
-      try {
-        const response = await axios.post('http://localhost:5190/api/sigorta/post-data', this.formData, {
-          headers: {
-            'Content-Type': 'application/json'
-          }
-        });
+    submitForm() {
+      axios.post('http://localhost:5190/api/sigorta/post-data', this.formData, {
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      })
+      .then(response => {
         alert('Veri başarıyla gönderildi: ' + JSON.stringify(response.data));
         console.log('Veri başarıyla gönderildi: ' + JSON.stringify(response.data));
         this.data = response.data; // Sonuçları burada saklıyoruz
-      } 
-      catch (error) {
+        if (this.data && this.data.results) {
+          this.data.results.sort((a, b) => {
+            return a.fiyat - b.fiyat; // Artan sıralama
+          });
+        }
+        // Eğer mevcut adım, adım sayısından küçükse bir sonraki adıma geç
+        if (this.currentStep < this.steps.length - 1) {
+          this.currentStep++;
+        }
+      })
+      .catch(error => {
         alert('Hata oluştu: ' + (error.response?.data || error.message));
         console.log('Hata oluştu: ' + (error.response?.data || error.message));
       }
-    }
+  )}
   }
-};
+}
 </script>
 
 <style scoped>
-.wizard-controls {
-  margin-top: 20px;
-}
 button {
   margin-right: 10px;
 }
 .container {
   max-width: 500px; /* Form genişliğini ayarlamak için */
+}
+.step-indicator {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #4BB543;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.step-indicator.active {
+  background-color: #4BB543;
+  color: white;
 }
 </style>

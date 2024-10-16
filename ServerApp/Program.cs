@@ -44,6 +44,7 @@ app.MapGet("/weatherforecast", () =>
 .WithName("GetWeatherForecast")
 .WithOpenApi();
 
+app.MapFallbackToFile("index.html");
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)

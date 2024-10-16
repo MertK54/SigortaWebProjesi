@@ -1,10 +1,12 @@
 <template>
-  <div>
-    <label>Araç Paketi:</label>
-    <input type="email" v-model="formData.aracPaketi" />
-    <label>Yakıt Tipi:</label>
-    <input type="email" v-model="formData.yakitTipi" />
+  <div class="container mt-4">
+    <div class="mb-3">
+      <label for="aracPaketi" class="form-label">Araç Paketi:</label>
+      <input type="text" v-model="formData.aracPaketi" class="form-control mb-4" />
+      <label for="yakitTipi" class="form-label">Yakıt Tipi:</label>
+      <input type="text" v-model="formData.yakitTipi" class="form-control" />
   </div>
+</div>
 </template>
 
 <script>
