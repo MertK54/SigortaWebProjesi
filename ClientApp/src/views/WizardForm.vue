@@ -10,7 +10,7 @@
         <span>{{ index + 1 }}</span>
       </div>
     </div>
-    <component :is="steps[currentStep].component" v-model="formData" :data="data" />
+    <component :is="steps[currentStep].component" v-model="formData" :data="data"/>
 
     <div class="card-body mt-5">
       <button @click="prevStep" :disabled="currentStep === 0" class="btn btn-secondary">Geri</button>
