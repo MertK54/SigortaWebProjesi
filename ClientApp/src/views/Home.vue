@@ -127,28 +127,28 @@
             </div>
         </div>
     </section>
-<!--adım adım baslangic-->
-<section class="row p-5">
-  <div class="container">
-    <div class="row ">
-      <div class="p-3 col-lg-4">
-        <h3><strong>Adım1 : Bilgilerinizi Girin</strong></h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, deleniti, ad repellendus quis iste nisi eius molestiae animi aspernatur.</p>
-        <img src="../assets/img/form.png" alt="" class="img-fluid" style="width: 100%;">
-      </div>
-      <div class="p-3 col-lg-4">
-        <h3><strong>Adım 2: Teklifleri Alın</strong></h3>
-        <p>Possimus culpa corrupti exercitationem dolorem cumque quos? Sequi architecto dolor optio?</p>
-        <img src="../assets/img/form.png" alt="" class="img-fluid" style="width: 100%;">
-      </div>
-      <div class="p-3 col-lg-4">
-        <h3><strong>Adım 3: Başvurunuzu Tamamlayın</strong></h3>
-        <p>Başvurunuzu başarıyla tamamladıktan sonra, sizinle en kısa sürede iletişime geçeceğiz.</p>
-        <img src="../assets/img/form.png" alt="" class="img-fluid" style="width: 100%;">
-      </div>
+    <!--adım adım baslangic-->
+    <section class="row p-5">
+    <div class="container">
+        <div class="row ">
+        <div class="p-3 col-lg-4">
+            <h3><strong>Adım1 : Bilgilerinizi Girin</strong></h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, deleniti, ad repellendus quis iste nisi eius molestiae animi aspernatur.</p>
+            <img src="../assets/img/form.png" alt="" class="img-fluid" style="width: 100%;">
+        </div>
+        <div class="p-3 col-lg-4">
+            <h3><strong>Adım 2: Teklifleri Alın</strong></h3>
+            <p>Possimus culpa corrupti exercitationem dolorem cumque quos? Sequi architecto dolor optio?</p>
+            <img src="../assets/img/form.png" alt="" class="img-fluid" style="width: 100%;">
+        </div>
+        <div class="p-3 col-lg-4">
+            <h3><strong>Adım 3: Başvurunuzu Tamamlayın</strong></h3>
+            <p>Başvurunuzu başarıyla tamamladıktan sonra, sizinle en kısa sürede iletişime geçeceğiz.</p>
+            <img src="../assets/img/form.png" alt="" class="img-fluid" style="width: 100%;">
+        </div>
+        </div>
     </div>
-  </div>
-</section>
+    </section>
 
   </template>
   

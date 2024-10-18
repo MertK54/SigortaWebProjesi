@@ -2,17 +2,20 @@
   <div class="container mt-4">
     <div class="mb-3">
       <label for="aracMarka" class="form-label">Araç Marka:</label>
-      <select id="aracMarka" v-model="formData.aracMarka" class="form-control selectpicker">
-        <option disabled value="">Araç markanızı seçiniz</option>
-        <option v-for="marka in aracMarka" :key="marka" :value="marka">{{ marka }}</option>
-      </select>
+      <v-select
+        v-model="formData.aracMarka"
+        :options="aracMarka"
+        placeholder="Araç Markanızı Seçiniz"
+      ></v-select>
     </div>
     <div class="mb-3">
       <label for="aracModel" class="form-label">Araç Model:</label>
-      <select id="aracModel" v-model="formData.model" class="form-control selectpicker">
-        <option disabled value="">Araç modelinizi seçiniz</option>
-        <option v-for="model in aracModel" :key="model" :value="model">{{ model }}</option>
-      </select>
+      <v-select
+        v-model="formData.model"
+        :options="aracModel"
+        placeholder="Araç Modelinizi Seçiniz"
+        :reduce="model => model"
+      ></v-select>
     </div>
   </div>
 </template>
@@ -25,8 +28,11 @@
 
 <script>
 import axios from 'axios';
-
+import vSelect from 'vue-select';
 export default {
+  components:{
+    vSelect,
+  },
   props: {
     modelValue: {
       type: Object, 

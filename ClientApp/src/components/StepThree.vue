@@ -2,11 +2,12 @@
   <div class="container mt-4">
     <div class="mb-3">
       <label for="aracPaketi" class="form-label">Araç Paketi:</label>
-      <select id="aracPaketi" v-model="formData.aracPaketi" class="form-control selectpicker">
-        <option disabled value="">Araç paketinizi seçiniz</option>
-        <option v-for="paket in aracPaketi" :key="paket" :value="paket">{{ paket }}</option>
-      </select>
-
+      <v-select
+        v-model="formData.aracPaketi"
+        :options="aracPaketi"
+        placeholder="Araç Paketinizi Seçiniz"
+        :reduce="arac => arac"
+      ></v-select>
       <label for="yakitTipi" class="form-label">Yakıt Tipi:</label>
       <select id="yakitTipi" v-model="formData.yakitTipi" class="form-control selectpicker">
         <option disabled value="">Yakıt tipini seçiniz</option>
@@ -75,8 +76,6 @@ export default {
         this.aracMarka = [...new Set(this.data.map(item => item.aracMarka))];
         this.aracModel = [...new Set(this.data.map(item => item.aracModel))];
         this.aracModelYil = [...new Set(this.data.map(item => item.modelYil))];
-
-        // Paket ve yakıt tipi verilerini ilk yükleme sırasında güncelle
         this.updatePaketYakit();
       })
       .catch(error => {
@@ -86,9 +85,7 @@ export default {
     },
     
     updatePaketYakit() {
-      // FormData'da gerekli alanların dolu olduğunu kontrol ediyoruz
       if (this.formData.aracMarka && this.formData.model && this.formData.modelYil) {
-        // Araç paketlerini ve yakıt tiplerini filtreleyerek alıyoruz
         this.aracPaketi = this.data
           .filter(item => item.aracMarka === this.formData.aracMarka && 
                          item.aracModel === this.formData.model && 
@@ -101,7 +98,6 @@ export default {
                          item.modelYil === this.formData.modelYil)
           .map(item => item.yakitTipi);
       } else {
-        // Gerekli alanlar dolu değilse, paket ve yakıt tiplerini sıfırla
         this.aracPaketi = [];
         this.yakitTipi = [];
       }

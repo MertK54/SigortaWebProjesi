@@ -2,10 +2,12 @@
   <div class="container mt-4">
     <div class="mb-3">
       <label for="modelYil" class="form-label">Model Yılı:</label>
-      <select id="modelYil" v-model="formData.modelYil" class="form-control selectpicker">
-        <option disabled value="">Araç model yılınızı seçiniz</option>
-        <option v-for="yil in aracModelYil" :key="yil" :value="yil">{{ yil }}</option>
-      </select>
+      <v-select
+        v-model="formData.modelYil"
+        :options="aracModelYil"
+        placeholder="Araç Model Yılınızı Seçiniz"
+        :reduce="yil => yil"
+      ></v-select>
     </div>
   </div>
 </template>

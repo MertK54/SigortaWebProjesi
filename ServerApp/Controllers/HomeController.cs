@@ -31,7 +31,6 @@ namespace ServerApp.Controllers
             {
                 connection.Open();
 
-                // SQL sorgusunu düzenledik
                string query = "SELECT aracMarka, modelYil, model, aracPaketi, yakitTipi, fiyat, sirketAdi " +
                                 "FROM sigortalar " +
                                 "WHERE modelYil = @modelYil " +
